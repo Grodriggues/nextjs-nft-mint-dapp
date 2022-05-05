@@ -6,6 +6,8 @@ import { useWeb3React } from '@web3-react/core';
 import projectConfig from '../config/projectConfig';
 import { useEthereumProvider } from '../hooks/useEthereumProvider';
 import { injected } from '../utils/wallet/connectors';
+import UnstoppableBtn from './UnstoppableBtn';
+
 
 export default function ConnectButton() {
   const router = useRouter();
@@ -32,6 +34,9 @@ export default function ConnectButton() {
       );
     }
   }
+
+
+ 
 
   return (
     <div className="flex justify-center">
@@ -64,6 +69,7 @@ export default function ConnectButton() {
           Connecting
         </button>
       ) : (
+        <>
         <button
           type="button"
           className="flex justify-center items-center space-x-2 border-2 border-gray-500 hover:border-gray-400 bg-gray-800 rounded-full px-4 py-2 w-40"
@@ -72,6 +78,8 @@ export default function ConnectButton() {
           <FaWallet />
           <span>Connect</span>
         </button>
+        <UnstoppableBtn />
+        </>
       )}
     </div>
   );

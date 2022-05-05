@@ -38,13 +38,13 @@ const projectConfig = {
 
   contractAddress:
     process.env.NODE_ENV === 'production'
-      ? 'your_mainnet_contract_address'
-      : 'your_testnet_contract_address',
+      ? '0x936343c1823a46629b9f2643ccfb1e99af2fecd1'
+      : '0xd9145CCE52D386f254917e481eB44e9943F39138',
 
   scanUrl:
     process.env.NODE_ENV === 'production'
       ? 'https://polygonscan.com/address/your_polygon_contract_address'
-      : 'https://mumbai.polygonscan.com/address/your_mumbai_contract_address',
+      : 'https://rpc-mumbai.maticvigil.com',
   // 'https://etherscan.io/address/your_ethereum_contract_address'
   // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'
 };
