@@ -38,8 +38,8 @@ const projectConfig = {
 
   contractAddress:
     process.env.NODE_ENV === 'production'
-      ? process.env.PROD_CONTRACT_ADDRESS
-      : process.env.DEV_CONTRACT_ADDRESS,
+      ? process.env.PROD_CONTRACT_ADDRESS!
+      : process.env.DEV_CONTRACT_ADDRESS!,
 
   scanUrl:
     process.env.NODE_ENV === 'production'
