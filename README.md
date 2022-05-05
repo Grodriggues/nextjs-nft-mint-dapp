@@ -74,3 +74,14 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Connect MetaMask Mobile
 
 To connect to MetaMask on mobile, install [MetaMask Mobile](https://metamask.io/download/) on your smartphone. You can choose to use it when you want to connect your wallet in your mobile browser. If it is not installed, you will be taken to the installation page for each store.
+
+
+
+
+
+### Hackathon information
+
+- **Repository**: https://github.com/Grodriggues/nextjs-nft-mint-dapp
+- **Demo video**: https://www.youtube.com/watch?v=EUUhLs2NMpk
+- **Contact**: `gbrodrigues@protonmail.com`
+- **Discord ID**: `Gabriiel#7844`
